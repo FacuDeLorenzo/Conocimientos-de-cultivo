@@ -15,13 +15,15 @@ Esto redefine qué es palanca y qué no:
 
 | Variable | ¿Palanca? | Ventana de respuesta |
 |---|---|---|
-| Enmiendas secas (harinas, rocas) | ❌ No | 2–10 semanas |
+| Enmiendas secas (harinas, rocas) | ⚠️ Parcial | Solo si entran **antes** de la ventana de demanda: 2–4 sem. de anticipación según velocidad de mineralización. Aplicar tarde = efecto cayendo sobre cosecha |
 | Temperatura del sustrato | ✅ Sí | 24–72 h |
 | Geometría del riego (sensor + caudal) | ✅ Sí | 24–96 h |
 | VPD / temperatura ambiente | ✅ Sí | horas–días |
 | Transpiración | ✅ Sí | horas |
 | Entrenamiento / defoliación | ⚠️ Parcial | días–semanas |
 | Tés y lixiviados líquidos | ⚠️ Marginal | 24–72 h, efecto breve |
+
+> **Sobre las enmiendas:** son parciales porque sí tienen impacto, pero solo si calibrás su curva de liberación contra la fase que viene. A modo de ejemplo, para vegetativo: Harina de sangre (C:N ~12, libera en 2–4 sem) cubre el pico de N de veg tardío. En el traspaso a flora: Harina de hueso + guano de murciélago (liberan en 1–3 meses) llegan a tiempo para el engorde de cogollos. Lo mismo aplicado en flor media llega tarde y ensucia el final.
 
 ### 1.2. El interruptor de demanda: La asimetría día/noche
 La biología no reacciona a la luz directamente, sino a través de la planta. Existe una asimetría fundamental en el flujo de carbono:
@@ -62,8 +64,10 @@ La planta jala el menú microbiano con sus exudados. Por eso subir transpiració
 Se mueve por condiciones sostenidas (temperatura nocturna, geometría de humedad, mulch), nunca por aplicaciones puntuales.
 
 ### 2.3. Amplitud Térmica (DIF) y Estrés Osmótico
-- **DIF amplio (Noche fría):** Máxima acumulación de materia seca, mínima respiración de mantenimiento.
-- **DIF estrecho (Noche cálida):** Metabolismo alto las 24 h, tejidos jugosos y menos lignificados, más exposición a patógenos y plagas.
+- **DIF amplio (Noche fría):** máxima acumulación de materia seca, mínima respiración de mantenimiento. Tejidos más lignificados.
+- **DIF estrecho (Noche cálida):** metabolismo alto las 24 h. Consecuencias mixtas, no uniformemente negativas: tejidos más jugosos y menos lignificados (en veg es costo aceptable; en flor es defecto real), menor eficiencia por unidad de carbono fijado, ciclo reproductivo más corto de insectos plaga (araña roja, trips) pero **menor presión de hongos foliares** (Botrytis, oídio se inhiben).
+
+El signo depende de la fase: en vegetativo la noche caliente es una apuesta válida que se paga en eficiencia y gestión de plagas; en floración pasa a ser un error de asignación de carbono. Ver detalle operativo en §4.1.
 
 **Estrés osmótico ≠ estrés salino:** En sustrato inerte el secado prolongado acumula sales. En living soil produce lo contrario: sube CO₂ poroso, se frena la nitrificación, la balanza corre hacia hongos y crece la demanda hídrica. El fenotipo se parece (planta compacta, más resina); el mecanismo es opuesto.
 
