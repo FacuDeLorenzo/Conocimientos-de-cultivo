@@ -23,10 +23,10 @@ Esto redefine qué es palanca y qué no:
 | Entrenamiento / defoliación | ⚠️ Parcial | días–semanas |
 | Tés y lixiviados líquidos | ⚠️ Marginal | 24–72 h, efecto breve |
 
-> **Sobre las enmiendas:** son parciales porque sí tienen impacto, pero solo si calibrás su curva de liberación contra la fase que viene. A modo de ejemplo, para vegetativo: Harina de sangre (C:N ~12, libera en 2–4 sem) cubre el pico de N de veg tardío. En el traspaso a flora: Harina de hueso + guano de murciélago (liberan en 1–3 meses) llegan a tiempo para el engorde de cogollos. Lo mismo aplicado en flor media llega tarde y ensucia el final.
+> **Sobre las enmiendas:** son parciales porque sí tienen impacto, pero solo si calibrás su curva de liberación contra la fase que viene. A modo de ejemplo, para vegetativo: **Harina de sangre (C:N ~3–4, libera rápido en 2–3 sem)** cubre el pico de N de veg tardío, pero exige cálculo fino: su mineralización veloz puede forzar crecimiento excesivo si cae tarde. En el traspaso a flora: Harina de hueso + guano de murciélago (liberan en 1–3 meses) llegan a tiempo para el engorde de cogollos. Lo mismo aplicado en flor media llega tarde y ensucia el final.
 
 ### 1.2. El interruptor de demanda: La asimetría día/noche
-La biología no reacciona a la luz directamente, sino a través de la planta. Existe una asimetría fundamental en el flujo de carbono:
+La biología no reacciona a la luz directamente, sino a través de la planta. Sin luz no hay fotosíntesis; sin fotosíntesis no hay exudados; sin exudados la rizosfera entra en modo ahorro. Existe una asimetría fundamental en el flujo de carbono:
 
 | Estado | Fotosíntesis | Transpiración | Flujo de carbono | Comportamiento biológico |
 |---|---|---|---|---|
@@ -64,10 +64,10 @@ La planta jala el menú microbiano con sus exudados. Por eso subir transpiració
 Se mueve por condiciones sostenidas (temperatura nocturna, geometría de humedad, mulch), nunca por aplicaciones puntuales.
 
 ### 2.3. Amplitud Térmica (DIF) y Estrés Osmótico
-- **DIF amplio (Noche fría):** máxima acumulación de materia seca, mínima respiración de mantenimiento. Tejidos más lignificados.
-- **DIF estrecho (Noche cálida):** metabolismo alto las 24 h. Consecuencias mixtas, no uniformemente negativas: tejidos más jugosos y menos lignificados (en veg es costo aceptable; en flor es defecto real), menor eficiencia por unidad de carbono fijado, ciclo reproductivo más corto de insectos plaga (araña roja, trips) pero **menor presión de hongos foliares** (Botrytis, oídio se inhiben).
+- **DIF amplio (Noche fría):** máxima acumulación de materia seca, mínima respiración de mantenimiento. Tejidos más lignificados. La lignificación es una barrera física: dificulta la penetración hifal de hongos foliares y la succión de chupadores.
+- **DIF estrecho (Noche cálida):** metabolismo alto las 24 h. Consecuencias mixtas, no uniformemente negativas: tejidos más jugosos y menos lignificados, menor eficiencia por unidad de carbono fijado, y **ciclo reproductivo más corto de insectos plaga** (araña roja, trips: de ~14 a ~5–7 días por generación).
 
-El signo depende de la fase: en vegetativo la noche caliente es una apuesta válida que se paga en eficiencia y gestión de plagas; en floración pasa a ser un error de asignación de carbono. Ver detalle operativo en §4.1.
+**Matiz importante:** el frío nocturno no vuelve a la planta "inmune" a ácaros — eso lo resuelve la humedad baja y el control biológico. Su efecto sobre plagas es indirecto: ralentiza su reproducción. El efecto sobre hongos es doble: tejidos más duros (barrera) y menor HR asociada. En vegetativo la noche caliente sacrifica lignificación por velocidad de crecimiento; ese intercambio es aceptable ahí y pasa a ser un error en flor (§4.1, §4.3).
 
 **Estrés osmótico ≠ estrés salino:** En sustrato inerte el secado prolongado acumula sales. En living soil produce lo contrario: sube CO₂ poroso, se frena la nitrificación, la balanza corre hacia hongos y crece la demanda hídrica. El fenotipo se parece (planta compacta, más resina); el mecanismo es opuesto.
 
@@ -92,10 +92,19 @@ El cono de arcilla libera agua cuando la tensión del suelo supera un umbral.
 - **Baja tensión:** El agua fluye fácilmente. Sustrato cercano a capacidad de campo.
 - **Alta tensión:** La planta debe "jalar" fuerte. Sustrato más seco, mayor entrada de O₂.
 
-#### 3.2.2. Perfil Vertical: La gravedad y la mesa colgante
-Este es el factor que rompe la simetría vertical en camas profundas. El agua drena y se acumula abajo formando un *perched water table*: la zona inferior queda más húmeda que la media incluso con la superficie aparentemente seca. Con riegos escasos y mal compensados, el fondo puede quedar encharcado **antes** de que exista lixiviación visible.
+#### 3.2.2. Perfil Vertical: La gravedad
+Lo primero que me gusta imaginar y descubrí que es muy útil, es imaginar que estamos haciendo una vista trasversal del suelo, y vemos cómo se hidrata según cosas como:
+- Caudal, que sería la cantidad de agua que pasa por medida de tiempo
+- Tiempo saliendo agua.
+- Tiempo sin riego y humedad repartiéndose.
+Esta imagen mental de cómo está hidratándose el suelo nos ayuda a seguir la teoría a continuación:
 
-La consecuencia crítica: **el sensor solo lee su propia altura**, y peor aún, se vuelve engañoso justo cuando importa. El agua acumulada en el fondo solo remonta por capilaridad cuando la capa media seca — o sea, la lectura del cono alto mejora en el preciso momento en que la saturación profunda ya existe. El sistema interpreta "húmedo, no regar" mientras la raíz baja se ahoga. Como la anaerobiosis arranca desde abajo, los metabolitos tóxicos (etanol, ácido acético, sulfuros) difunden hacia arriba, hacia la raíz sana.
+Este es el factor que rompe la simetría vertical en camas profundas. 
+Un caudal elevado de la mano de un tiempo elevado causarían que el agua pueda drenar y acumularse abajo, quedando la zona inferior más húmeda que la media incluso con la superficie aparentemente seca. El fondo puede quedar encharcado **antes** de que exista lixiviación visible, esto afecta en mayor medida a un gotero que a una manguera de sudoración.
+
+**Matiz por tipo de emisor:** una manguera de sudoración, al distribuir el agua a lo largo de toda su longitud y con caudal bajo por punto, tiende a generar perfiles más parejos que un gotero puntual — que concentra la carga en un solo punto y depende mucho más de la tasa de infiltración local. Pero esto vale **solo si la infiltración acompaña**: una manguera operada a presión alta (caudal global elevado) puede igualmente apilar agua en el fondo si el sustrato no la absorbe tan rápido como entra. En la práctica, la presencia de lecturas simultáneas en superficie y fondo es lo único que distingue un perfil parejo de una mesa colgante encubierta.
+
+La consecuencia crítica: **el cono solo lee su propia altura**. El agua acumulada en el fondo solo remonta por capilaridad cuando la capa media seca — o sea, la lectura del cono alto mejora en el preciso momento en que la saturación profunda ya existe. El sistema interpreta "húmedo, no regar" mientras la raíz baja se ahoga. Como la anaerobiosis arranca desde abajo, los metabolitos tóxicos (etanol, ácido acético, sulfuros) difunden hacia arriba, hacia la raíz sana.
 
 **Cómo se compensa:**
 
@@ -107,12 +116,12 @@ La consecuencia crítica: **el sensor solo lee su propia altura**, y peor aún, 
 
 **Regla de velocidad:** La tasa de entrada debe ser menor que la suma de infiltración y drenaje. Mejor un evento largo y lento que uno corto e intenso: el primero distribuye por capilaridad, el segundo apila agua en el fondo.
 
-**Mantenimiento del perfil:** Una capa gruesa de material inerte y grande en los primeros 10–15 cm del fondo (piedra pómez gruesa, biochar chunk) crea aireación pasiva aun con agua retenida. Es lo que hace tolerable la mesa colgante en vez de eliminarla.
+**Mantenimiento del perfil:** Una capa entremezclada de material inerte y grande en los primeros 10 cm del fondo (piedra pómez gruesa, biochar chunk) crea aireación pasiva aun con agua retenida. Es lo que hace tolerable el fondo de la cama, no es indispensable.
 
 #### 3.2.3. Distancia y Caudal: La Matriz de Control
 **1. Presión / caudal.** Determina cuánta agua entra por unidad de tiempo. Caudal alto en el mismo ciclo → el agua alcanza a rehidratar el fondo. Caudal bajo → riego superficial, el fondo no se encharca.
 
-**2. Distancia cono–manguera.** No cambia cuánta agua entra: cambia **dónde se detiene**.
+**2. Distancia cono–manguera.** Regula el tiempo de actuación. Cuanto más lejos, más tarda en llegar la hidratación horizontal al cono, cuanto más cerca, menos tiempo abierta el agua. 
 
 El frente húmedo avanza por capilaridad y gravedad; el cono lee en su propia posición. La distancia define cuánto tarda el sensor en enterarse y, sobre todo, **cuánta agua entra después de que el frente ya pasó**: entre que el agua toca el cono y el sistema corta hay un retardo mecánico (histéresis). Ese desfase es el volumen de sobre-riego, y decide si el fondo satura.
 
@@ -123,13 +132,13 @@ De ahí la regla general: **el exceso acumulado depende del caudal, no de la dis
 | **Lejos + alto** | El frente recorre mucha distancia antes de cortar; durante el retardo entra agua extra que ya va camino al fondo | Fondo saturado, mesa colgante alta, superficie apenas hidratada | Anaerobiosis desde abajo; el cono cierra mientras el fondo se ahoga |
 | **Lejos + bajo** | El frente avanza despacio y llega al cono ya repartido; el retardo aporta poco volumen | Perfil parejo, gradiente suave, fondo capaz de secarse | El más estable; exige ciclos largos |
 | **Cerca + alto** | Corta rápido, pero el golpe inicial ya mandó agua hacia abajo. El corte no revierte lo entrado | Superficie hidratada, fondo igual de cargado | Engañoso: parece riego corto, carga profunda igual |
-| **Cerca + bajo** | Corta antes de que el frente descienda; el agua queda atrapada arriba | Humedad superficial, zona media irregular, fondo que pierde humedad | Estrés real en raíz profunda con superficie perfecta |
+| **Cerca + bajo** | Corta antes de que el frente descienda; el agua quede atrapada arriba | Humedad superficial, zona media irregular, fondo que pierde humedad | Estrés real en raíz profunda con superficie perfecta |
 
 Matiz: los micro-ciclos erráticos de encendido/apagado no son propios del modo "lejos", sino señal de **mal contacto cono–sustrato** (típico cuando la turba se vuelve hidrofóbica). Ahí el cono pierde lectura y dispara de forma errática.
 
 **Síntesis:** La distancia fija la **profundidad objetivo**; el caudal fija el **exceso** que se acumula ahí. Las diagonales son coherentes (lejos/bajo → perfil parejo con fondo seco; cerca/alto → mojar todo asumiendo carga de fondo). Las esquinas opuestas dan resultados contrarios a los esperados.
 
-Y una consecuencia: la distancia **no sirve para regar menos**. Reducir volumen se hace bajando caudal o subiendo tensión. Con tu red a 1.5 bar y llave estrangulada ya no podés generar el golpe inicial, así que tu setup está sesgado naturalmente hacia perfiles parejos con fondo seco — justo lo que querés en flor. Para recuperar una cama ida a sequía profunda: cono lejos, caudal bajo, ciclo largo. No abrir la llave.
+Y una consecuencia: la distancia **no sirve para regar menos**. Reducir volumen se hace bajando caudal o subiendo tensión(perilla del cono).
 
 ### 3.3. VPD y Transpiración Nocturna
 Al atardecer los estomas no se cierran en seco: la planta se rehidrata antes del corte de bombeo.
@@ -139,10 +148,23 @@ Al atardecer los estomas no se cierran en seco: la planta se rehidrata antes del
 Bajar la temperatura nocturna reduce la presión de vapor y ajusta el VPD de forma natural, sin humidificar artificialmente.
 
 ### 3.4. El Rol del Mulch
-Material con C:N > 25–30 se descompone vía hongos y fija N en biomasa. En no-till eso ocurre **arriba**, no en la rizosfera: el N queda secuestrado en el mantillo y la red fúngica lo transporta hacia abajo según demanda. Nunca incorporar. Con riego por sudoración el mulch suma otra función: evita costra superficial, bloquea algas y amortigua la temperatura de la capa alta.
+Material con C:N > 25–30 se descompone vía hongos y fija N en biomasa. En no-till eso ocurre **arriba**, no en la rizosfera: el N queda secuestrado en el mantillo y la red fúngica lo transporta hacia abajo según demanda. Con riego por sudoración el mulch suma otra función: evita costra superficial, bloquea algas y amortigua la temperatura de la capa alta.
 
-### 3.5. Pulso de Carbono Soluble
-Melaza o jugo (~C:N 1) dispara la respiración bacteriana en 24–72 h: baja el O₂ disuelto, sube el CO₂ poroso, frena brevemente la nitrificación. Es lo más parecido a un ajuste fino de N que existe acá, pero su efecto es breve, indirecto y peligroso en flor.
+### 3.5. Pulso de Carbono Soluble: El Riesgo de la Geometría
+
+Melaza o jugo (~C:N 1) dispara la respiración bacteriana en 24–72 h: baja el O₂ disuelto, sube el CO₂ poroso y frena brevemente la nitrificación. Es lo más parecido a un ajuste fino de N que existe acá, pero su efecto es breve, indirecto y peligroso en flor.
+
+**La trampa geométrica:**
+El peligro real no es solo el consumo de O₂, sino cómo interactúa con la **matriz de caudal/distancia** que definimos en §3.2.
+
+1.  **El consumo de O₂ es local pero rápido:** Las bacterias heterótrofas, al "comer" el azúcar, respiran exponencialmente. Si el sustrato ya está en un perfil de humedad alta (sensor bajo, caudal alto), los poros finos se saturan de CO₂ bacteriano antes de que la difusión atmosférica pueda renovarlo.
+2.  **El efecto dominó:** Esta hipoxia localizada inmoviliza la nitrificación (las bacterias nitrificantes son estrictamente aeróbicas). Si aplicás melaza sobre un sustrato ya saturado de agua, no solo ahogás la raíz, sino que **parás la producción de nitrato** justo cuando la biología debería estar mineralizando.
+3.  **La regla de oro para el steering:** Un pulso de carbono **exige** un perfil de riego más seco que el habitual.
+    *   Si usás melaza, **bajá la tensión** (dejás que entre *más* agua) **solo si** el sensor está **alto** y el caudal es **bajo**.
+    *   En cualquier otra configuración (sensor bajo, caudal alto), el pulso de carbono es contraproducente: generás anaerobiosis sin mejorar la nutrición, porque la falta de O₂ bloquea la conversión de amonio a nitrato.
+
+**Conclusión operativa:**
+El carbono soluble no es un fertilizante, es un **disparador metabólico**. Solo funciona si el sustrato tiene **aire** para quemarlo. En flor, con sensor alto y caudal bajo (§4.3), el pulso es seguro porque el fondo seco actúa como cámara de aireación pasiva. En veg, con sensor medio y caudal medio, el pulso debe ser esporádico y seguido de un ciclo de "secado" más pronunciado para renovar el O₂.
 
 ---
 
@@ -168,7 +190,7 @@ Melaza o jugo (~C:N 1) dispara la respiración bacteriana en 24–72 h: baja el 
 
 - **Aceleración del ciclo.** Metabolismo activo las 24 h: expansión foliar rápida, tallo que engrosa pronto. Útil si querés cerrar copa rápido o si el clima base es frío y la planta se "duerme".
 - **Mayor consumo de agua y nutrientes.** Al gastar más carbono en respiración, la planta necesita más fotosíntesis y por tanto más transpiración. Jala más solución, y la biología tiene que mineralizar más rápido para acompañarla. Si no alcanza, aparece estancamiento o puntas quemadas en el pico de demanda.
-- **Tejidos más blandos.** Menos lignina por unidad de crecimiento: tallos jugosos, hojas finas. Va a requerir tutorado antes.
+- **Tejidos más blandos.** Menos lignina por unidad de crecimiento: tallos jugosos, hojas finas. Va a requerir tutorado antes. Aunque la noche caliente reduce la lignificación relativa, la **mayor tasa de crecimiento** en veg compensa esto: la planta produce más biomasa total, aunque cada célula sea más jugosa. El tutorado no es un defecto, es el precio de la velocidad.
 - **Menos moho, más plagas.** El calor inhibe Botrytis y oídio, pero comprime el ciclo reproductivo de araña roja y trips (de ~14 a ~5–7 días por generación).
 - **Presión real sobre el O₂.** Microbios y raíz siguen activos simultáneamente. En cama pesada esto acerca a anaerobiosis; con 22 % de material aireante es manejable **si** el caudal es lento y el fondo no satura.
 
@@ -201,16 +223,16 @@ Esta es la traducción real del "manejo generativo": no tocás el sustrato, baj�
 
 | Palanca | Ajuste | Razón |
 |---|---|---|
-| T° día | 22–25 °C | Fotosíntesis alta sin sobrecalentar la cama |
+| T° día | 24–26 °C | Fotosíntesis alta sin sobrecalentar la cama; sostener el DIF desde arriba, no hundiendo la noche |
 | HR día | 50–60 % | VPD alto favorece arrastre de K y micronutrientes quelados |
 | VPD día | 1.2–1.5 kPa | Arrastre máximo con oferta deliberadamente restringida |
-| T° noche | 16–19 °C | **Crítico:** baja respiración = acumulación de materia seca; previene hipoxia |
-| HR noche | 60–70 % | Recarga sin saturar |
-| VPD noche | 0.5–0.7 kPa | Evita marchitamiento nocturno |
-| DIF | +3 a +5 °C | Máxima asignación de carbono a flor |
+| T° noche | 18–19 °C | **Piso fisiológico:** respiración frenada sin bloquear absorción de P ni transporte micorrícico |
+| HR noche | 60–65 % | Recarga estable con margen térmico contra condensación |
+| VPD noche | 0.6–0.8 kPa | Estabilidad hídrica sin relajar la restricción |
+| DIF | +5 a +7 °C | Se ensancha subiendo el día, no bajando la noche por debajo del piso |
 | Sensor | Alto (10–15 cm bajo la cubierta) | Actividad fúngica y raíces finas altas; el fondo queda como cámara de aire |
 | Caudal | Bajo | Sudoración lenta: nunca supera la infiltración, no hay acumulación profunda |
-| Flujo de aire | Alto y uniforme | Renueva capa límite, sostiene transpiración real |
+| Flujo de aire | Alto y uniforme | Renueva capa límite, sostiene transpiración real, seca superficies expuestas |
 | Defoliación | Selectiva, semanas 1–3 de flor | Solo sombra estancada; después, no |
 | Mulch | Engrosar capa leñosa | Inmoviliza N residual en superficie |
 | Luz | 12 h | Mantenimiento |
@@ -227,13 +249,13 @@ Si querés empujar la transición sin tocar nada más, endurecé momentáneament
 | Palanca | Ajuste | Razón |
 |---|---|---|
 | Inputs | Ninguno | Sin comida nueva, la biología se apaga sola |
-| T° día | 20–23 °C | Baja fotosíntesis gradual |
+| T° día | 22–24 °C | Freno gradual sin detener fotosíntesis antes de tiempo |
 | HR día | 45–55 % | VPD alto para exprimir el arrastre final |
 | VPD día | 1.2–1.5 kPa | Mantiene transporte de K y secundarios |
-| T° noche | 15–17 °C | Máxima eficiencia respiratoria, señal de fin de temporada |
+| T° noche | 17–18 °C | Señal de fin de temporada sin hipotermia metabólica |
 | HR noche | 55–65 % | Estrés leve controlado, protege cogollos densos |
-| VPD noche | 0.4–0.6 kPa | Límite inferior seguro |
-| DIF | +5 °C o más | Acumulación máxima de seco |
+| VPD noche | 0.5–0.7 kPa | Límite inferior seguro, con margen contra punto de rocío |
+| DIF | +5 a +6 °C | Acumulación máxima dentro de rango viable |
 | Sensor | Alto, con caudal mínimo | Solo la capa superior mantiene vida; el resto de la cama se apaga |
 | Caudal | Casi nulo | Supervivencia, no nutrición |
 | Flush | **No** | Lava comunidad, destruye estructura, no hay sales que lavar |
@@ -290,12 +312,12 @@ Sin medición, todo lo anterior es adivinanza. Para una cama de 350 L:
 |---|---|---|---|---|---|---|---|---|---|---|
 | **Veg** | 24–28 | 50–60 % | 0.8–1.1 | 20–22 | 60–70 % | 0.6–0.8 | +2–4 | Medio-alto | Medio | ~70 % bact |
 | **Pre-flor** | 22–26 | 55–65 % | 1.1–1.3 | 18–20 | 65–75 % | 0.6–0.8 | +2–4 | Medio | Medio-bajo | ~50/50 |
-| **Flor** | 22–25 | 50–60 % | 1.2–1.5 | 16–19 | 60–70 % | 0.5–0.7 | +3–5 | Alto | Bajo | ~80 % hongo |
-| **Final** | 20–23 | 45–55 % | 1.2–1.5 | 15–17 | 55–65 % | 0.4–0.6 | +5+ | Alto | Mínimo | ~90 % hongo |
+| **Flor** | 24–26 | 50–60 % | 1.2–1.5 | 18–19 | 60–65 % | 0.6–0.8 | +5–7 | Alto | Bajo | ~80 % hongo |
+| **Final** | 22–24 | 45–55 % | 1.2–1.5 | 17–18 | 55–65 % | 0.5–0.7 | +5–6 | Alto | Mínimo | ~90 % hongo |
 
 Tres lecturas de esta tabla:
 
-- **La temperatura nocturna cae monótonamente** a lo largo del ciclo. Es la única variable que nunca sube, y es la que ordena todo lo demás.
+- **La temperatura nocturna cae monótonamente** a lo largo del ciclo, pero se detiene en el piso fisiológico de 17–18 °C. El DIF se ensancha subiendo el día, no hundiendo la noche.
 - **El sensor migra hacia arriba** mientras el caudal cae. No cambiás cuánto regás: cambiás *dónde* vive el agua.
 - **VPD día sube mientras la oferta baja.** Esa tijera —más demanda contra menos suministro— es el motor del steering generativo en living soil.
 
