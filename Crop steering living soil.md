@@ -321,7 +321,32 @@ Tres lecturas de esta tabla:
 - **El sensor migra hacia arriba** mientras el caudal cae. No cambiás cuánto regás: cambiás *dónde* vive el agua.
 - **VPD día sube mientras la oferta baja.** Esa tijera —más demanda contra menos suministro— es el motor del steering generativo en living soil.
 
-### 6.3. Conclusión
+### 6.3. La Palanca Oculta: PPFD y el Techo de Demanda
+
+La luz es la variable que muchos cultivadores ajustan primero y peor. Es la palanca de **demanda** por excelencia: subir PPFD aumenta la fotosíntesis, pero también dispara la **transpiración** y la necesidad de arrastre de savia. En living soil con carga fija, esa demanda acelerada tiene un techo duro: si la biología no mineraliza rápido para acompañar, la planta pide más de lo que la cama entrega y aparece deficiencia cinética (§3.1), no falta de nutriente.
+
+| Fase | PPFD Sano (Inicio) | PPFD Exigente (Máx. Seguro) | Condición Clima para Máximo |
+|---|---|---|---|
+| **Veg** | 300–500 µmol/m²/s | 600–800 µmol/m²/s | VPD día en el extremo alto del rango (1.0–1.1 kPa) y flujo de aire activo sobre copa: la planta necesita transpirar para evacuar el calor radiante |
+| **Pre-flor** | 500–700 µmol/m²/s | 800–1000 µmol/m²/s | Transición: el estiramiento consume energía; no forzar hasta que la copa asiente |
+| **Flor** | 700–900 µmol/m²/s | 1000–1200 µmol/m²/s | Solo con flujo de aire alto y uniforme; sin CO₂ suplementario, 1000 es el techo real |
+| **Final** | 500–700 µmol/m²/s | 800–900 µmol/m²/s | Bajar PPFD junto con T°: la planta ya no puede procesar el exceso de fotones |
+
+#### Reglas para leer esta tabla
+
+- **"Sano"** = PPFD donde la fotosíntesis escala linealmente con luz. Si subís y no ves respuesta en crecimiento o engorde, pasaste el punto de saturación y solo estás generando calor radiante.
+- **"Exigente"** = Requiere que **todas** las demás palancas estén en rango óptimo simultáneamente (VPD, flujo de aire, T° sustrato). Un solo desvío convierte el máximo en estrés.
+- **El techo de CO₂:** En ambiente cerrado sin suplemento, la concentración baja a ~350–400 ppm durante horas pico. Por eso 1000–1200 µmol es el límite práctico: más luz no se traduce en más fotosíntesis porque el carbono escasea antes que la energía lumínica.
+- **Calor radiante ≠ temperatura ambiente.** Un LED de alta densidad calienta la hoja directamente aunque el aire esté fresco. El termómetro de aire miente: tocá una hoja bajo máxima potencia. Si está 3–4 °C más caliente que el aire, estás quemando capacidad fotosintética aunque el VPD "calcule" bien.
+- **En veg, menos es más.** Subir PPFD a 800 sin subir HR/temperatura adecuadas produce hojas finas, tallos débiles y mayor gasto hídrico sin ganancia de biomasa. La curva de respuesta a luz en veg temprano satura rápido (~400–500 en plántula/clone joven).
+
+#### Cómo integrarlo al steering
+
+El error estructural del novato es tratar la luz como oferta ("más luz = más comida"). En este marco, la luz es **demanda**: obliga a la planta a pedir más, pero no le da nada. Si la geometría del riego, la T° de sustrato o el VPD no acompañan, el PPFD extra no produce más cosecha — produce estrés crónico, consumo acelerado de reservas y senescencia anticipada.
+
+Por eso la columna existe: **el PPFD exigente no es un objetivo, es una advertencia**. Te dice dónde está el borde del acantilado climático. Cruzala siempre con la Tabla Maestra: si tu clima no cumple la condición de la última columna, tu techo real es el valor "Sano", no el "Exigente".
+
+### 6.4. Conclusión
 El living soil no-till con riego por tensión es un sistema de alta complejidad biológica pero de baja intervención química. Su robustez a largo plazo depende de respetar la física del reactor: oxigenar el fondo, frenar la respiración nocturna y dejar que la planta jale lo que el suelo puede ofrecer, sin forzar la oferta cuando la demanda está baja.
 
 ---
